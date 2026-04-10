@@ -102,10 +102,19 @@ A user (Sarah Johnson) required elevated permissions to manage users but was una
 
 ## 📸 Screenshots
 
-* User Creation
-* Group Creation
-* Group Membership Assignment
-* Role Assignment Attempt / Permission Limitation
+## 📸 Screenshots
+
+### Users Created
+![Users](screenshots/all_users.png)
+
+### Groups Created
+![Groups](screenshots/groups_created.png)
+
+### Group Membership
+![Group Membership](screenshots/group_membership_hr.png)
+
+### Role Assignment Limitation
+![Roles](screenshots/roles_no_permission.png)
 
 (Screenshots stored in `/screenshots` folder)
 
