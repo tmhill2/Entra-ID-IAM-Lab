@@ -88,10 +88,8 @@ A user (Sarah Johnson) required elevated permissions to manage users but was una
 3. Checked for assigned roles
 4. Attempted role assignment
 
-### Root Cause:
-
-* No administrative roles assigned
-* Current account lacks permission to assign roles
+### 🔎 Root Cause Identified:
+Lack of assigned administrative role and insufficient privileges to perform RBAC role assignment.
 
 ### Resolution:
 
