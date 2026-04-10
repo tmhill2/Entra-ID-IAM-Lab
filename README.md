@@ -144,4 +144,7 @@ A user (Sarah Johnson) required elevated permissions to manage users but was una
 * Integrate with on-prem Active Directory (hybrid identity)
 * Explore Privileged Identity Management (PIM)
 
+## 🧩 Real-World Relevance
+
+This lab reflects common IAM tasks performed in enterprise environments, including onboarding users, managing group-based access, and identifying permission issues related to RBAC restrictions. The inability to assign roles without proper privileges mirrors real-world least privilege enforcement and escalation workflows.
 ---
