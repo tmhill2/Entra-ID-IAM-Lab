@@ -115,6 +115,49 @@ Lack of assigned administrative role and insufficient privileges to perform RBAC
 
 ---
 
+🔐 Conditional Access & MFA
+
+To enhance security, a Conditional Access policy was implemented:
+
+- Created policy: Require MFA for all users
+- Applied to: All cloud applications
+- Configured to require Multi-Factor Authentication (MFA)
+- Excluded admin account to prevent lockout
+
+🧪 Testing:
+- Logged in as standard users
+- Prompted for MFA setup using Microsoft Authenticator
+- Successfully completed MFA challenge
+
+📸 Screenshots
+- MFA prompt during login
+- Conditional Access policy configuration
+
+---
+
+🔐 Privileged Identity Management (PIM)
+
+To enforce least privilege and just-in-time access:
+
+- Removed permanent User Administrator role from Sarah Admin
+- Assigned role as **Eligible** using PIM
+- Required:
+  - MFA
+  - Justification
+  - Time-bound activation
+
+🧪 Testing:
+- Logged in as Sarah Admin
+- Navigated to PIM → My Roles
+- Activated User Administrator role
+- Completed MFA and justification
+- Verified role changed from Eligible → Active
+
+📸 Screenshots
+- Eligible role assignment
+- Role activation screen
+- Active role with expiration time
+
 ## 🧠 Key Takeaways
 
 * IAM should follow **group-based access control**, not direct user assignment
