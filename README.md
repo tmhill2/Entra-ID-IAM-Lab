@@ -135,7 +135,7 @@ To enhance security, a Conditional Access policy was implemented:
 ### MFA Prompt During Login
 User is prompted for multi-factor authentication after Conditional Access policy enforcement.
 
-![MFA Prompt](screenshots/mfa-prompt.png)
+![MFA Prompt](screenshots/MFA-Prompt.png)
 
 ---
 
@@ -185,10 +185,7 @@ To enforce least privilege and just-in-time access:
 - Completed MFA and justification
 - Verified role changed from Eligible → Active
 
-📸 Screenshots
-- Eligible role assignment
-- Role activation screen
-- Active role with expiration time
+
 
 ## 🧠 Key Takeaways
 
