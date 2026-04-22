@@ -130,8 +130,40 @@ To enhance security, a Conditional Access policy was implemented:
 - Successfully completed MFA challenge
 
 📸 Screenshots
-- ![MFA prompt during login](screenshots/MFA-Prompt.png)
-- ![Conditional Access policy configuration](screenshots/conditional-access-policy.png)
+📸 Screenshots
+
+### MFA Prompt During Login
+User is prompted for multi-factor authentication after Conditional Access policy enforcement.
+
+![MFA Prompt](screenshots/mfa-prompt.png)
+
+---
+
+### Conditional Access Policy Configuration
+Policy configured to require MFA for all users accessing cloud applications.
+
+![Conditional Access Policy](screenshots/conditional-access-policy.png)
+
+---
+
+### PIM Eligible Role Assignment
+User Administrator role assigned as eligible, requiring activation before use.
+
+![PIM Eligible](screenshots/pim-eligible.png)
+
+---
+
+### PIM Role Activation
+User activates role with justification and time-bound access.
+
+![PIM Activation](screenshots/pim-activation.png)
+
+---
+
+### PIM Active Role
+Role successfully activated with temporary elevated privileges.
+
+![PIM Active](screenshots/pim-active.png)
 
 ---
 
