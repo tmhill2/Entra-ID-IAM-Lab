@@ -130,8 +130,8 @@ To enhance security, a Conditional Access policy was implemented:
 - Successfully completed MFA challenge
 
 📸 Screenshots
-- ![MFA prompt during login](screenshots/MFA Prompt.png)
-- ![Conditional Access policy configuration](screenshots/conditonal-access-policy.png)
+- ![MFA prompt during login](screenshots/MFA-Prompt.png)
+- ![Conditional Access policy configuration](screenshots/conditional-access-policy.png)
 
 ---
 
