@@ -196,24 +196,28 @@ To enforce least privilege and just-in-time access:
 
 ---
 
-## 💼 Skills Demonstrated
-
-* Identity and Access Management (IAM)
-* User provisioning and lifecycle management
-* Group-based access control
-* RBAC analysis and troubleshooting
-* Security best practices (least privilege)
+💼 Skills Demonstrated
+Identity and Access Management (IAM)
+User provisioning and lifecycle management
+Group-based access control
+Role-Based Access Control (RBAC) configuration and troubleshooting
+Conditional Access policy implementation
+Multi-Factor Authentication (MFA) enforcement
+Privileged Identity Management (PIM) for just-in-time access
+Security best practices (least privilege, zero trust)
+Sign-in log analysis and access validation
 
 ---
 
-## 🚀 Future Improvements
 
-* Assign roles using an admin account
-* Implement Conditional Access policies (MFA)
-* Integrate with on-prem Active Directory (hybrid identity)
-* Explore Privileged Identity Management (PIM)
+🚀 Future Improvements
+Implement Access Reviews for periodic access validation
+Automate user lifecycle management (joiner/mover/leaver)
+Integrate with on-prem Active Directory (hybrid identity)
+Configure approval workflows for PIM role activation
+
+---
 
 ## 🧩 Real-World Relevance
-
-This lab reflects common IAM tasks performed in enterprise environments, including onboarding users, managing group-based access, and identifying permission issues related to RBAC restrictions. The inability to assign roles without proper privileges mirrors real-world least privilege enforcement and escalation workflows.
+This lab simulates enterprise IAM operations, including user onboarding, group-based access control, MFA enforcement through Conditional Access, and just-in-time privileged access using Privileged Identity Management (PIM). These configurations reflect real-world security practices such as least privilege, zero trust, and privileged access governance used in modern organizations.
 ---
