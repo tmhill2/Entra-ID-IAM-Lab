@@ -197,6 +197,7 @@ To enforce least privilege and just-in-time access:
 ---
 
 💼 Skills Demonstrated
+
 Identity and Access Management (IAM)
 User provisioning and lifecycle management
 Group-based access control
@@ -211,6 +212,7 @@ Sign-in log analysis and access validation
 
 
 🚀 Future Improvements
+
 Implement Access Reviews for periodic access validation
 Automate user lifecycle management (joiner/mover/leaver)
 Integrate with on-prem Active Directory (hybrid identity)
