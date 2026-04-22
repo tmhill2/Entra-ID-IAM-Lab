@@ -129,7 +129,7 @@ To enhance security, a Conditional Access policy was implemented:
 - Prompted for MFA setup using Microsoft Authenticator
 - Successfully completed MFA challenge
 
-📸 Screenshots
+
 📸 Screenshots
 
 ### MFA Prompt During Login
