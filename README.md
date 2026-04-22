@@ -196,27 +196,27 @@ To enforce least privilege and just-in-time access:
 
 ---
 
-💼 Skills Demonstrated
+## 💼 Skills Demonstrated
 
-Identity and Access Management (IAM)
-User provisioning and lifecycle management
-Group-based access control
-Role-Based Access Control (RBAC) configuration and troubleshooting
-Conditional Access policy implementation
-Multi-Factor Authentication (MFA) enforcement
-Privileged Identity Management (PIM) for just-in-time access
-Security best practices (least privilege, zero trust)
-Sign-in log analysis and access validation
+* Identity and Access Management (IAM)
+* User provisioning and lifecycle management
+* Group-based access control
+* Role-Based Access Control (RBAC) configuration and troubleshooting
+* Conditional Access policy implementation
+* Multi-Factor Authentication (MFA) enforcement
+* Privileged Identity Management (PIM) for just-in-time access
+* Security best practices (least privilege, zero trust)
+* Sign-in log analysis and access validation
 
 ---
 
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
-Implement Access Reviews for periodic access validation
-Automate user lifecycle management (joiner/mover/leaver)
-Integrate with on-prem Active Directory (hybrid identity)
-Configure approval workflows for PIM role activation
+* Implement Access Reviews for periodic access validation
+* Automate user lifecycle management (joiner/mover/leaver)
+* Integrate with on-prem Active Directory (hybrid identity)
+* Configure approval workflows for PIM role activation
 
 ---
 
