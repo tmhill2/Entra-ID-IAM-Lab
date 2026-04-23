@@ -185,6 +185,37 @@ To enforce least privilege and just-in-time access:
 - Completed MFA and justification
 - Verified role changed from Eligible → Active
 
+  ## 🔍 Access Reviews (Identity Governance)
+
+Implemented an access review to validate group membership and enforce least privilege.
+
+### Configuration
+- Review Target: HR-Team (group)
+- Reviewer: Sarah Admin
+- Review Type: One-time review
+- Duration: 3 days
+- Auto-apply results: Enabled
+- No response action: Remove access
+- Justification required: Enabled
+
+### Review Execution
+Access review was completed by the designated reviewer.
+
+- User Reviewed: John Smith
+- Recommendation: Approve
+- Final Decision: Approved
+- Reviewed By: Sarah Admin
+
+### Outcome
+User access was validated and retained based on business need.
+
+### Screenshots
+
+Access Review - Decision  
+![Access Review Decision](screenshots/access-review-decision.png)
+
+Access Review - Result  
+![Access Review Result](screenshots/access-review-result.png)
 
 
 ## 🧠 Key Takeaways
@@ -207,13 +238,16 @@ To enforce least privilege and just-in-time access:
 * Privileged Identity Management (PIM) for just-in-time access
 * Security best practices (least privilege, zero trust)
 * Sign-in log analysis and access validation
+* Identity Governance (Access Reviews)
+* Access certification and periodic access validation
+* Enforcement of least privilege through automated review workflows
 
 ---
 
 
 ## 🚀 Future Improvements
 
-* Implement Access Reviews for periodic access validation
+* Implement recurring access reviews and automated lifecycle governance
 * Automate user lifecycle management (joiner/mover/leaver)
 * Integrate with on-prem Active Directory (hybrid identity)
 * Configure approval workflows for PIM role activation
