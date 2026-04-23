@@ -1,4 +1,4 @@
-# entra-id-identity-governance-lab
+# Entra ID Identity & Access Management (IAM) Governance Lab
 
 # Microsoft Entra ID IAM Lab – User & Access Management
 
