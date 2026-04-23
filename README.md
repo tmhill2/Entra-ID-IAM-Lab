@@ -214,8 +214,6 @@ User access was validated and retained based on business need.
 Access Review - Decision  
 ![Access Review Decision](screenshots/access-review-decision.png)
 
-Access Review - Result  
-![Access Review Result](screenshots/access-review-result.png)
 
 
 ## 🧠 Key Takeaways
