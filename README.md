@@ -214,6 +214,63 @@ User access was validated and retained based on business need.
 Access Review - Decision  
 ![Access Review Decision](screenshots/access-review-decision.png)
 
+## 🔐 Enterprise Application Access Management (ServiceNow)
+
+Expanded the IAM governance lab by onboarding ServiceNow as an Enterprise Application in Microsoft Entra ID to simulate SaaS application access provisioning and Single Sign-On (SSO) administration.
+
+Configuration
+
+Application Added: ServiceNow (Enterprise Application)
+
+Access Model: Group-based assignments
+
+Assigned Groups:
+
+HR-Team → User access
+
+IT-Admins → User access
+
+Single Sign-On Review
+
+Reviewed supported SSO methods:
+
+SAML
+
+Linked Sign-on
+
+Disabled
+
+Opened the SAML configuration page and reviewed required federation settings:
+
+Identifier (Entity ID)
+
+Reply URL (Assertion Consumer Service URL)
+
+Sign-on URL
+
+Attributes & Claims
+
+Signing Certificate
+
+Outcome
+
+Demonstrated how organizations centrally manage SaaS application access and configure identity federation through Microsoft Entra ID.
+
+Screenshots
+
+ServiceNow Users and Groups
+
+![Users and Groups](screenshots/servicenow-users-groups-overview.png)
+
+SSO Method Selection
+
+![SSO Methods](screenshots/servicenow-sso-method-selection.png)
+
+SAML Configuration
+
+![SAML Config](screenshots/servicenow-saml-configuration.png)
+
+
 
 
 ## 🧠 Key Takeaways
@@ -239,6 +296,11 @@ Access Review - Decision
 * Identity Governance (Access Reviews)
 * Access certification and periodic access validation
 * Enforcement of least privilege through automated review workflows
+* Enterprise Application Management
+* Single Sign-On (SSO)
+* SAML Federation Concepts
+* SaaS Access Governance
+* Application Provisioning
 
 ---
 
